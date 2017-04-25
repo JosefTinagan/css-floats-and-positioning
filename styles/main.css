@@ -1,7 +1,149 @@
-.fixed .header{
-	background-color: blue;
+.fixed-header{
+	height: 50px;
 	position: fixed;
 	top: 0;
-	left: 0;
+	left: 50px;
 	right: 0;
+	border-bottom: 1px solid grey;
+}
+
+.nav-button{
+
+}
+
+/* Article List */
+
+header{
+	height: 100px;
+	border-bottom: 1px solid grey;
+	margin: 50px 0 0 -8px;
+	position: relative;
+	left: 50px;
+	right: 0;
+	top: 0;
+
+
+}
+
+.article-list{
+	height: 100%;
+	width: 100%;
+}
+
+.article-container{
+	border-right: 1px solid grey;
+	height: 90%;
+	width: 20%;
+	margin-left: 10px;
+	position: relative;
+	top: 5px;
+	float: left;
+}
+
+.article-container img{
+	margin: 7px 10px 0 10px;
+	float: left;
+}
+
+.article-container>.thumb-text{
+	font-size: 12px;
+	display: block;
+	float: left;
+	width: 60%;
+	margin-top: 30px;
+	position: relative;
+}
+
+.article-container>.tag{
+	font-size: 10px;
+	position: absolute;
+	margin-left: 95px;
+}
+
+.article-container>.thumb-text.jeff-bezos{
+	margin-top: 15px;
+}
+
+.article-container.hidden{
+	display: none;
+}
+/* Main Article */
+
+article{
+	top: 0;
+	left: 40px;
+	right: 0;
+	position: relative;
+}
+
+.main-article-header-container{
+	margin: 0 auto;
+	width: 80%;
+	height: 170px;
+	display: block;
+	position: relative;
+	top: 5px;
+	border-top: 1px solid black;
+}
+
+.main-article-tag{
+	margin-top: 10px;
+}
+
+.main-article-tag > span{
+	font-weight: bold;
+}
+
+.main-article-title{
+	margin-top: 30px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #AAA;	
+}
+
+.main-article-title > span{
+	font-size: 25px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.main-article-about{
+	margin-top: 20px;
+}
+
+.main-article-about > .author{
+	font-size: 12px;
+}
+
+.main-article-about > .date{
+	font-size: 12px;
+	margin-left: 10px;
+	color: #555;
+}
+
+.main-article-about > .contacts-container{
+	height: 25px;
+	width: 25px;
+	background-image: url("../assets/pics/sprite-no-repeat.svg");
+	float: right;
+	margin-right: 10px;
+}
+
+.main-article-about > .contacts-container.facebook{
+	background-repeat: no-repeat;
+	background-position: -59px -54px;
+}
+
+.main-article-about > .contacts-container.twitter{
+	background-repeat: no-repeat;
+	background-position: 0px -313px;
+}
+
+.main-article-about > .contacts-container.mail{
+	background-repeat: no-repeat;
+	background-position: -131px -21px;
+}
+
+.main-article-about > .contacts-container.arrow{
+	background-repeat: no-repeat;
+	background-position: -242px -247px;
 }
