@@ -5,6 +5,7 @@
 	left: 50px;
 	right: 0;
 	border-bottom: 1px solid grey;
+	z-index: 1;
 }
 
 .nav-button{
@@ -134,7 +135,7 @@ article{
 }
 
 .main-article-about > .contacts-container.twitter{
-	background-repeat: no-repeat;
+	background-repeat: no-repeat; 
 	background-position: 0px -313px;
 }
 
@@ -146,4 +147,124 @@ article{
 .main-article-about > .contacts-container.arrow{
 	background-repeat: no-repeat;
 	background-position: -242px -247px;
+}
+
+.main-article-pic{
+	margin-top: 20px;
+}
+
+.main-article-pic > figure > img{
+	width: 100%;
+}
+
+figure > figcaption{
+	width: 55%;
+	font-size: 12px;
+}
+
+.author{
+	font-size: 10px;
+	color: #AAA;
+}
+
+/* Main Article Content */
+
+.main-article-content{
+	width: 80%;
+	margin: 50px auto 0 auto;
+}
+
+p{
+	margin-bottom: 30px;
+	width: 60%;
+}
+
+.theory-of-inflation{
+	margin-left: -80px;
+	position: relative;
+	border-top: 1px solid #888;
+	border-bottom: 1px solid #888;
+	width: 100%;
+	height: 650px;
+
+}
+
+.theory-of-inflation > figure > img{
+	width: 100%;
+	margin-left: -780px;
+	position: absolute;
+	z-index: -1;
+	height: 75%;
+}
+
+.theory-of-inflation > h4{
+	margin-bottom: 0;
+}
+.theory-of-inflation > p{
+	margin: 0;
+	font-size: 11px;
+	color: #777;
+	right: 100px;
+}
+
+.inflation-section{
+	font-size: 10px;
+	color: #777;
+	float: left;
+	width: 25%;
+	margin-top: 125px;
+}
+
+.inflation-section p{
+	width: 100%;
+}
+
+.inflation-section.footer{
+	margin: 0;
+	width: 100%;
+}
+
+.professor-andrei-linde-video{
+	margin-left: -100px;
+}
+
+section{
+	width: 30%;
+	height: 300px;
+	border-top: 1px solid #555;
+	border-bottom: 1px solid #555;
+	font-size: 11px;
+	color: grey;
+}
+
+.science-times-form > p{
+	width: 100%;
+}
+
+.science-times-form > p > a{
+	font-size: 11px;
+	color: #777;
+
+}
+
+
+.science-times-footer{
+	border-top: 1px solid #555;
+	padding-top: 5px;
+}
+input[type="submit"]{
+
+}
+
+
+.telescope{
+	margin-left: -100px;
+}
+.telescope > figcaption{
+	width: 80%;
+}
+
+.closing-footer{
+	font-size: 10px;
+	color: #555;
 }
