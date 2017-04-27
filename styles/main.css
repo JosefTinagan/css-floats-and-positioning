@@ -149,12 +149,22 @@ article{
 	background-position: -242px -247px;
 }
 
+.separator{
+	margin-right: 10px;
+	float: right;
+}
+
+.contacts-container.log-in{
+
+}
+
 .main-article-pic{
 	margin-top: 20px;
+	margin-left: -40px;
 }
 
 .main-article-pic > figure > img{
-	width: 100%;
+	width: 105%;
 }
 
 figure > figcaption{
@@ -230,11 +240,17 @@ p{
 
 section{
 	width: 30%;
-	height: 300px;
-	border-top: 1px solid #555;
-	border-bottom: 1px solid #555;
+	height: 350px;
 	font-size: 11px;
 	color: grey;
+	float: left;
+	margin-right: 30px;
+}
+
+.science-times-form{
+	border-top: 1px solid #555;
+	border-bottom: 1px solid #555;
+
 }
 
 .science-times-form > p{
@@ -247,15 +263,65 @@ section{
 
 }
 
+.checkbox-label{
+	clear: both;
+	display:block;
+	margin-top: -20px;
+	margin-left: 25px;
+	color: #111;
+}
+
+.p-after-section{
+}
+
 
 .science-times-footer{
 	border-top: 1px solid #555;
 	padding-top: 5px;
 }
 input[type="submit"]{
-
+	position: relative;
+	float: right;
+	margin-top: -28px;
+	font-size: 12px;
+	padding: 0;
 }
 
+.captcha{
+	border: 1px solid #CCC;
+	border-radius: 5px;
+	padding: 20px 20px 20px 10px;
+}
+
+.not-a-robot{
+}
+
+.captcha-footer > p{
+	font-size: 8px;
+	margin: 0 0 0 150px;
+	padding: 0;
+	display: inline;
+	color: #CCC;
+}
+
+.captcha-footer > p > a{
+	color: #999;
+	text-decoration: none;
+}
+
+
+.captcha-footer > p:last-child{
+	font-size: 7px;
+}
+
+.captcha-img{
+	float: right;
+	margin-top: -30px;
+	background: url("../assets/pics/recaptcha.png");
+	background-size: 32px;
+	height: 32px;
+	width: 32px;
+}
 
 .telescope{
 	margin-left: -100px;
