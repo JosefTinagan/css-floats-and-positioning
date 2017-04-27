@@ -3,3 +3,4 @@
 theodinproject.com
 
 -> Add More Section and Trending Section
+-> Add Footer
