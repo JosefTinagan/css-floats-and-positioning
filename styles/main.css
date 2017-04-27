@@ -334,3 +334,138 @@ input[type="submit"]{
 	font-size: 10px;
 	color: #555;
 }
+
+.float-separator{
+	clear: both;
+}
+
+article{
+	position: relative;
+	height: 8550px;
+}
+/* More in and Trendign Section */
+
+.other-articles-section{
+	margin-left: auto;
+	width: 100%;
+	height: 100%;
+}
+
+.more-in-section{
+	display: block;
+	width: 60%;
+	height: 500px;
+	float: left;
+	margin-right: 50px;
+}
+
+.more-header-container{
+	clear: both;
+	width: 100%;
+	height: 7%;
+	display: block;
+	padding-top: 10px;
+	border-top: 1px solid #888;
+}
+
+
+.more-header-container > span:first-child{
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.more-header-container > span:last-child{
+	float: right;
+}
+
+.more-top-section{
+	clear: both;
+	width: 30%;
+	display: inline;
+}
+
+.more-top-section > div{
+	margin-left: 30px;
+	float: left;
+	width: 30.4%;
+}
+
+.more-top-section > div:first-of-type{
+	margin: 0;
+}
+
+
+.top-section{
+}
+
+.top-section > p{
+	width: 100%;
+	margin: 5px 0 0 0;
+}
+
+.top-section > p:first-of-type{
+	font-weight: bold;
+}
+
+.more-bottom-section{
+	clear: both;
+	width: 30%;
+	display: inline;
+}
+
+.more-bottom-section > div{
+	margin-left: 30px;
+	width: 30.4%;
+	float: left;
+}
+
+.more-bottom-section > div:first-of-type{
+	clear: both;
+	margin: 0;
+}
+
+.bottom-section > p{
+	width: 100%;
+	margin: 5px 0 0 0;
+}
+
+.bottom-section > p:first-of-type{
+	font-weight: bold;
+}
+
+.trending-section{
+	border-top: 1px solid #888;
+
+	display: block;
+	width: 35%;
+	display: inline-block;
+	height: 100%;
+}
+
+.trending-block{
+	width: 100%;
+	height: 50px;
+	border-bottom: 1px solid #BBB;
+	margin-top: 5px;
+}
+
+
+.content-block{
+	width: 80%;
+	float: left;
+}
+
+.picture-block{
+	display: inline;
+	width: 20%;
+	float: left;
+}
+
+.picture-block > span> img{
+	width: 30px;
+	height: 30px;
+}
+
+.content-block > span{
+	font-size: 11px;
+}
