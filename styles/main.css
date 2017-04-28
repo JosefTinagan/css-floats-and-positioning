@@ -6,10 +6,120 @@
 	right: 0;
 	border-bottom: 1px solid grey;
 	z-index: 1;
+	margin-top: 0px;
+	width: 96%;
+	background-color: white;
+}
+
+.left-section{
+
+	width: 30%;
+	height: 20px;
+}
+
+.left-section > button{
+	margin-left: 10px;
+	margin-top: 10px;
+	float: left;
 }
 
 .nav-button{
+	width: 40%;
+	height: 30px;
+}
 
+.nav-button > div{
+	background: url("../assets/pics/sprite-no-repeat.svg") -443px -214px;
+	height: 16px;
+	width: 16px;
+	float: left;
+}
+
+.nav-button > span{
+	margin-left: 5px;
+}
+
+.home-button{
+	width: 25%;
+	height: 30px;
+	border: none;
+	background:;
+}
+
+.home-button > div{
+	background: url("../assets/pics/sprite-no-repeat.svg") -51px -280px;
+	height:  16px;
+	width: 16px;
+	float: left;
+}
+
+.home-button > span{
+
+}
+
+.search-button{
+	width: 25%;
+	height: 30px;
+	border: none;
+	background:;
+}
+
+.search-button > div{
+	background: url("../assets/pics/sprite-no-repeat.svg") -357px -214px;
+	height: 16px;
+	width: 16px;
+	float: left;
+}
+
+.settings-button{
+	clear: left:;
+	float: right;
+	border: none;
+	background:;
+	margin-top: 5px;
+}
+
+.settings-button > div{
+	background: url("../assets/pics/sprite-no-repeat.svg") -494px -214px;
+	height: 16px;
+	width: 16px;
+}
+
+.nyt-logo{
+	height: 30px;
+	float: left;
+	margin-top: -20px;
+}
+
+.right-section{
+	width: 40%;
+	height: 30px;
+	float: right;
+	margin-right: 10px;
+	margin-top: -10px;
+
+}
+
+.fixed.log-in{
+	float: right;
+	margin-right: 10px;
+	background-color: #6288a5;;
+	border: 1px solid #6288a5;;
+	color: white;
+	padding: 5px;
+	font-weight: bold;
+	border-radius: 5px;
+}
+
+.fixed.subscribe{
+	float: right;
+	margin-right: 10px;
+	background-color: #6288a5;
+	border: 1px solid #6288a5;;
+	color: white;
+	border-radius: 5px;
+	padding: 5px;
+	font-weight: bold;
 }
 
 /* Article List */
@@ -17,9 +127,9 @@
 header{
 	height: 100px;
 	border-bottom: 1px solid grey;
-	margin: 50px 0 0 -8px;
+	margin: 60px 0 0 -8px;
 	position: relative;
-	left: 50px;
+	left: 40px;
 	right: 0;
 	top: 0;
 
