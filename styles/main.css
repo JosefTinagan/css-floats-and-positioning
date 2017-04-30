@@ -104,7 +104,7 @@
 	float: right;
 	margin-right: 10px;
 	background-color: #6288a5;;
-	border: 1px solid #6288a5;;
+	border: 1px solid e#6288a5;;
 	color: white;
 	padding: 5px;
 	font-weight: bold;
@@ -455,6 +455,10 @@ article{
 }
 /* More in and Trendign Section */
 
+section{
+	margin-bottom: 60px;
+}
+
 .other-articles-section{
 	margin-left: auto;
 	width: 100%;
@@ -579,3 +583,116 @@ article{
 .content-block > span{
 	font-size: 11px;
 }
+
+/* Footer */
+
+footer{
+	clear: both;
+	width: 80%;
+	margin: 10px auto;
+}
+
+footer:before{
+	content: '';
+	box-sizing: : content-box;
+	display: block;
+	border-top: 2px solid #e2e2e2;
+	border-bottom: 1px solid #e2e2e2;
+	height: 1p;
+	margin: 15px 0;
+	background-color: #fff;
+	margin-top: 0;
+	margin-bottom: 9px;
+}
+
+.footer-head > a{
+	float: right;
+	font-size: 11px;
+}
+
+.footer-col{
+	background-color: blue;
+	width: 16%;
+	float: left;
+}
+
+.footer-first-col > p{
+	font-weight: bold;
+	margin-bottom: 0;
+}
+
+.listings {
+	list-style: none;
+	padding: 0;
+}
+
+.listings > li{
+	margin-bottom: 10px;
+}
+
+.listings > li > a{
+	text-decoration: none;
+	color: black;
+}
+
+table{
+	float: left;
+	width: 70%;
+	border-right: 1px solid grey;
+}
+
+.table-header{
+	font-weight: bold;
+	font-size: 12px;
+}
+
+td > a:link{
+	text-decoration: none;
+	color: black;
+}
+
+td > a:hover{
+	text-decoration: underline;
+}
+
+.second-row td:nth-child(2){
+	width: 200px;
+}
+
+/* Footer Aide */
+
+.footer-aside{
+	float: left;
+	width: 20%;
+}
+
+.footer-top{
+	border-bottom: 1px solid grey;
+}
+
+.footer-top > p{
+	margin: 0;
+	font-size: 11px;
+}
+
+.footer-bottom > p{
+
+	font-size: 11px;
+}
+
+/* Main Footer */
+.main-footer{
+	clear: both;
+
+}
+
+.main-footer ul{
+	list-style: none;
+	padding: 0;
+	display: inline;
+}
+
+.main-footer span{
+	display: inline;
+}
+
