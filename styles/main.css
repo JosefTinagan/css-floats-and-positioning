@@ -646,10 +646,15 @@ table{
 	font-size: 12px;
 }
 
-td > a:link{
+td > a:visited{
 	text-decoration: none;
+	color: pink;
+}
+
+td > a{
 	color: black;
 }
+
 
 td > a:hover{
 	text-decoration: underline;
@@ -663,36 +668,131 @@ td > a:hover{
 
 .footer-aside{
 	float: left;
-	width: 20%;
+	width: 25%;
+	margin-left: 10px;
 }
 
 .footer-top{
 	border-bottom: 1px solid grey;
+
 }
 
 .footer-top > p{
 	margin: 0;
 	font-size: 11px;
+	margin-bottom: 5px;
+}
+
+.footer-top > span{
+	margin-bottom: 10px;
+}
+
+.footer-top > div{
+	margin-bottom: 10px;
+}
+
+.footer-top > div:first-of-type{
+	margin-top: 10px;
+}
+
+.footer-top > div > span{
+	font-weight: bold;
+}
+
+.footer-bottom > p:first-of-type{
+	margin-top: 10px;
 }
 
 .footer-bottom > p{
-
+	margin: 0;
+	margin-bottom: 5px;
 	font-size: 11px;
 }
 
-/* Main Footer */
-.main-footer{
-	clear: both;
+.subscribe-footer{
+	font-weight: bold;
+	font-size: .9em;
 
 }
 
-.main-footer ul{
+.footer-icon{
+	display: inline-block;
+	height: 16px;
+	width: 16px;
+}
+
+.footer-icon.home{
+	background: url("../assets/pics/sprite-no-repeat.svg") -220px -54px;
+}
+
+.footer-icon.digital{
+	background: url("../assets/pics/sprite-no-repeat.svg") -34px -280px;
+}
+
+.footer-icon.times{
+	background: url("../assets/pics/sprite-no-repeat.svg") -112px -280px;
+}
+
+.footer-icon.cross-word{
+	background: url("../assets/pics/sprite-no-repeat.svg") -350px 0;
+}
+/* Main Footer */
+.main-footer{
+	clear: both;
+	position: relative;
+	top: 30px;
+	border-top: 1px solid grey;
+	width: 100%;
+}
+
+.main-footer-container{
+	margin-top: 10px;
+}
+
+.main-footer-container span{
+	font-size: 11px;
+	color: grey;
+	float: left;
+}
+
+
+.main-footer-container ul{
 	list-style: none;
 	padding: 0;
 	display: inline;
 }
 
-.main-footer span{
-	display: inline;
+.main-footer-container ul >li > a:before{
+	content: "|";
+	font-size: 11px;
+	color: grey;
+	margin-right: 5px;
 }
 
+.about-list{
+}
+
+.help-list{
+	margin-left: 10px;
+}
+
+.help-list li:first-child > a:before{
+	content: "";
+	margin: 0;
+}
+
+.help-list li:first-child > a{
+	margin: 0;
+}
+.main-footer-container ul > li > a{
+	font-size: 11px;
+	color: grey;
+	text-decoration: none;
+	float: left;
+	margin-left: 5px;
+}
+
+
+.main-footer-container ul > li > a:hover{
+	text-decoration: underline;
+}
